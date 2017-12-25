@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -13,32 +12,12 @@
 	<div id="contact">
 		<p id="para2"> Contact | nicole.yt.huang@gmail.com | (617)-653-4246 </p>
 	</div>
-	<div class="sticky">
-		<ul id="navBar">
+	<ul id="navBar">
 		<li><a href="#Resume">Resume</a></li>
 		<li><a href="#animation">3D Animation</a></li>
   		<li><a href="#productDesign">Product Design</a></li>
 	</ul>
-	</div>
-		<p id="content"> blah blah blah</p>
-	</div></div>
-	<script>
-		window.onscroll = function() {myFunction()};
 
-		var navbar = document.getElementById("navbar");
-		var sticky = navbar.offsetTop;
-
-		function myFunction() {
-  			if (window.pageYOffset >= sticky) {
-    			navbar.classList.add("sticky")
-  			} else {
-    			navbar.classList.remove("sticky");
-  			}
-		}
-	</script>
 </body>
 
 </html>
-
-
-
