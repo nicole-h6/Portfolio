@@ -4,11 +4,14 @@
 }
 
 #title{
-	font-size: 150%;
 	position: relative;
 	float: left;
 	font-weight: bold;
 	margin-left: 1%;
+}
+
+a{
+	text-decoration: none;
 }
 
 #contact{
@@ -31,7 +34,6 @@ div.sticky{
 	position: sticky;
 	top: 0;
 	background-color: #232b2b;
-
 }
 
 li{
@@ -43,15 +45,29 @@ li a{
 	color: #fafafa;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
 }
 
 li a:hover{
 	background-color: #414a4c;
 }
 
-#content{
-	padding: 1000px;
+#headshot{
+	position: relative;
+	margin-top: 1%;
+	margin-right: 0%;
+	float: left;
+	padding: 0%;
+}
+
+#aboutMe{
+	position: relative;
+	float: left;
+	width: 50%;
+	margin-left: 2%;
+}
+
+#resumeDiv{
+	text-align: center;
 }
 
 
