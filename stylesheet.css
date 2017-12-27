@@ -34,6 +34,8 @@ div.sticky{
 	position: sticky;
 	top: 0;
 	background-color: #232b2b;
+	z-index: 1;
+
 }
 
 li{
@@ -59,7 +61,7 @@ li a:hover{
 	padding: 0%;
 }
 
-#aboutMe, #uqlyfeDeets{
+#aboutMe, #deets{
 	position: relative;
 	float: left;
 }
@@ -72,9 +74,23 @@ h3{
 	text-align: center;
 }
 
-#uqlyfeLink{
+#uqlyfeLink, #spacwarsLink{
 	text-decoration: underline;
 	color: blue;
+	z-index: -1;
+}
+
+#uqlyfeProto{
+	z-index: -1;
+}
+
+#spacwarsPic, #fallingLeafVid{
+	position: relative;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	float: right;
+	padding: 0%;
 }
 
 
