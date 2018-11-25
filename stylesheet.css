@@ -1,6 +1,164 @@
+
 *{
-	color: #232b2b;
-	font-family: Tahoma;
+	font-family: 'Quicksand';
+}
+
+/* Banner */
+
+.banner{
+	border-bottom: 1px solid black;
+}
+
+#NicoleHuang{
+	font-weight: normal;
+	text-align: center;
+	font-size: 40px;
+}
+
+/* headers */
+
+
+#projects{
+	font-size: 24px;
+	margin-right: 40px;
+	float: left;
+}
+
+.menulink{
+	font-size: 20px;
+	float: left;
+	margin-right: 30px;
+	padding-top: 26px;
+}
+
+#resumeLink{
+	font-size: 30px;
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/* Home Page */
+
+h2{
+	font-weight: normal;
+	text-align: center;
+}
+
+.container{
+	float: left;
+	position: relative;
+	display: block;
+	margin-right: 30%;
+	margin-left: 30%;
+	padding-bottom: 70px;
+}
+
+.button{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1;
+  	-webkit-transition: .5s ease;
+  	backface-visibility: hidden;
+}
+
+.middle{
+  -webkit-transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .button{
+	opacity: 0.4;
+}
+
+.container:hover .middle{
+	opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+/* Project Pages */
+.projectContainer{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.projectTitle{
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.image{
+	padding-left: 15%
+}
+.imageSyllabi{
+	padding-left: 23%;
+}
+
+
+#SyllabiImage{
+	float: left;
+}
+
+/*resume*/
+
+#resumeDiv{
+	text-align: center;
+}
+
+/*footer*/
+.footer{
+	border-top: 1px solid black;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+#thanks{
+	font-size: 24px;
+	text-align: center;
+}
+
+#contact{
+	font-size: 18px;
+	text-align: center;
+}
+
+.icon{
+	width: 8%;
+	height: 8%;
+	padding-right: 5px;
+}
+
+
+
+.contactLink{
+	padding-left: 40%;
+	padding-bottom: 20px;
+}
+
+
+#homeDiv{
+	display: inline-block;
+}
+
+/*
+*{
+	color: #232b2b;	
+	font-family: Trebuchet MS;
 }
 
 #title{
