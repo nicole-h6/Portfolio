@@ -35,7 +35,7 @@
 	font-size: 30px;
 	float: right;
 	padding-right: 20px;
-	padding-top: 20px;
+	padding-top: 15px;
 }
 
 /* Home Page */
@@ -90,28 +90,68 @@ h2{
   padding: 16px 32px;
 }
 
+#backtoTop{
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
 /* Project Pages */
 .projectContainer{
 	margin-right: 10%;
 	margin-left: 10%;
 }
 
+#back{
+	height: 80px;
+	padding-right: 10px;
+}
+
 .projectTitle{
 	text-align: center;
 	font-size: 40px;
+	margin-top: 0px;
 }
 
 
 .image{
-	padding-left: 15%
+	padding-left: 13%;
 }
+
 .imageSyllabi{
 	padding-left: 23%;
 }
 
+.imageSyllabiDigital{
+	padding-left: 15%;
+}
 
-#SyllabiImage{
-	float: left;
+
+#uqlyfeProto{
+	display: block;
+	margin: 0 auto;
+}
+
+#instruction{
+	text-align: center;
+}
+
+.uqLyfePaper{
+	padding-left: 2%;
+}
+
+.imageUQLyfe{
+	padding-left: 38%;
+}
+
+.uqLyfe3{
+	padding-left: 10%;
 }
 
 /*resume*/
@@ -142,7 +182,6 @@ h2{
 	height: 8%;
 	padding-right: 5px;
 }
-
 
 
 .contactLink{
