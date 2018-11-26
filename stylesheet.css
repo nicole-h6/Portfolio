@@ -91,7 +91,7 @@ h2{
 }
 
 #backtoTop{
-	width: 100px;
+	width: 10%;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -109,7 +109,7 @@ html{
 }
 
 #back{
-	height: 80px;
+	width: 35%;
 	padding-right: 10px;
 }
 
