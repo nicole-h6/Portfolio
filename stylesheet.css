@@ -124,6 +124,11 @@ html{
 	padding-left: 13%;
 }
 
+#allergeatproto{
+	display: block;
+	margin: 0 auto;
+}
+
 .imageSyllabi{
 	padding-left: 23%;
 }
