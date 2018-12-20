@@ -124,7 +124,11 @@ html{
 	padding-left: 13%;
 }
 
-#allergeatproto{
+.restaurantdigitalimage{
+	padding-left: 20%;
+}
+
+#allergeatproto, #brancointeractive{
 	display: block;
 	margin: 0 auto;
 }
