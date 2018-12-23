@@ -1,6 +1,7 @@
 
 *{
 	font-family: 'Quicksand';
+	line-height: 1.5;
 }
 
 /* Banner */
@@ -31,10 +32,13 @@
 	padding-top: 26px;
 }
 
-#resumeLink{
-	font-size: 30px;
+#toplink:link, #toplink:visited{
+	font-size: 20px;
+	font-weight: bold;
+	color: #a9a9a9;
+	text-decoration: none;
 	float: right;
-	padding-right: 20px;
+	padding-right: 30px;
 	padding-top: 15px;
 }
 
@@ -100,6 +104,15 @@ h2{
 
 html{
 	scroll-behavior: smooth;
+}
+
+/* About Page */
+#mepic{
+	float: left;
+	padding-right: 50px;
+}
+#aboutmepara{
+	font-size: 14px;
 }
 
 /* Project Pages */
