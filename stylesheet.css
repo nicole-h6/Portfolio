@@ -53,8 +53,8 @@ h2{
 	float: left;
 	position: relative;
 	display: block;
-	margin-right: 30%;
-	margin-left: 30%;
+	margin-right: 25%;
+	margin-left: 25%;
 	padding-bottom: 70px;
 }
 
@@ -95,7 +95,7 @@ h2{
 }
 
 #backtoTop{
-	width: 10%;
+	width: 100px;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -110,10 +110,22 @@ html{
 #mepic{
 	float: left;
 	padding-right: 50px;
+	padding-bottom: 50px;
 }
 #aboutmepara{
 	font-size: 14px;
 }
+
+.iconaboutme{
+	width: 5%;
+	padding-right: 10px;
+	text-align: center;
+}
+
+#phone{
+	padding-left: 50px;
+}
+
 
 /* Project Pages */
 .projectContainer{
@@ -122,8 +134,7 @@ html{
 }
 
 #back{
-	width: 35%;
-	padding-right: 10px;
+	width: 120px;
 }
 
 .projectTitle{
@@ -133,26 +144,26 @@ html{
 }
 
 
-.image{
+/*.image{
 	padding-left: 13%;
-}
+} */
 
-.restaurantdigitalimage{
+/*.restaurantdigitalimage{
 	padding-left: 20%;
-}
+} */
 
 #allergeatproto, #brancointeractive{
 	display: block;
 	margin: 0 auto;
 }
 
-.imageSyllabi{
+/*.imageSyllabi{
 	padding-left: 23%;
-}
+} */
 
-.imageSyllabiDigital{
+/*.imageSyllabiDigital{
 	padding-left: 15%;
-}
+} */
 
 
 #uqlyfeProto{
@@ -164,17 +175,17 @@ html{
 	text-align: center;
 }
 
-.uqLyfePaper{
+/*.uqLyfePaper{
 	padding-left: 2%;
-}
+} */
 
 .imageUQLyfe{
 	padding-left: 38%;
 }
 
-.uqLyfe3{
+/*.uqLyfe3{
 	padding-left: 10%;
-}
+} */
 
 /*resume*/
 
