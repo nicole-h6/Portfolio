@@ -16,6 +16,33 @@
 	font-size: 40px;
 }
 
+#homemenu{
+	margin-right: 10%;
+}
+
+/*opening statement*/
+
+#statement{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 150px;
+	padding-bottom: 200px;
+
+}
+
+#hi{
+	text-align: center;
+	font-size: 60px;
+}
+
+#im{
+	font-size: 30px;
+}
+
+#scroll{
+	text-align: center;
+}
+
 /* headers */
 #back{
 	width: 120px;
