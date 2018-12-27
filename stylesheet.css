@@ -16,9 +16,7 @@
 	font-size: 40px;
 }
 
-#homemenu{
-	margin-right: 10%;
-}
+
 
 /*opening statement*/
 
@@ -27,6 +25,8 @@
 	padding-right: 10%;
 	padding-top: 10%;
 	padding-bottom: 10%;
+	max-height: 100%;
+	min-height: 100%;
 
 }
 
@@ -36,7 +36,7 @@
 }
 
 #im{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 #scroll{
@@ -46,9 +46,6 @@
 /* headers */
 #back{
 	width: 120px;
-}
-
-#back2{
 }
 
 #projects{
@@ -64,14 +61,19 @@
 	padding-top: 26px;
 }
 
+
 #toplink:link, #toplink:visited{
 	font-size: 20px;
 	font-weight: bold;
 	color: #a9a9a9;
 	text-decoration: none;
 	float: right;
-	padding-right: 30px;
-	padding-top: 22px;
+	padding-right: 5%;
+	padding-top: 2%;
+}
+
+#homemenu{
+	padding-right: 9%;
 }
 
 /* Home Page */
@@ -82,23 +84,21 @@ h2{
 }
 
 .container{
-	float: left;
 	position: relative;
-	display: block;
-	margin-right: 25%;
-	margin-left: 25%;
+	margin-right: 10%;
+	margin-left: 10%;
 	padding-bottom: 70px;
 }
 
 .button{
-	width: 100%;
-	height: 100%;
+	width: 600px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	opacity: 1;
   	-webkit-transition: .5s ease;
   	backface-visibility: hidden;
+  	max-width: 100%;
 }
 
 .middle{
@@ -142,21 +142,20 @@ html{
 #mepic{
 	float: left;
 	padding-right: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
+	max-width: 100%
 }
 #aboutmepara{
 	font-size: 14px;
 }
 
 .iconaboutme{
-	width: 5%;
+	width: 30px;
 	padding-right: 10px;
 	text-align: center;
 }
 
-#phone{
-	padding-left: 50px;
-}
+
 
 
 /* Project Pages */
@@ -184,9 +183,10 @@ html{
 	padding-left: 20%;
 } */
 
-#allergeatproto, #brancointeractive{
+#allergeatproto, #uqlyfeProto, #brancointeractive{
 	display: block;
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 /*.imageSyllabi{
@@ -197,11 +197,6 @@ html{
 	padding-left: 15%;
 } */
 
-
-#uqlyfeProto{
-	display: block;
-	margin: 0 auto;
-}
 
 #instruction{
 	text-align: center;
