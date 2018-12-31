@@ -197,10 +197,15 @@ html{
 	padding-left: 20%;
 } */
 
-#allergeatproto, #uqlyfeProto, #brancointeractive{
+#allergeatproto, #uqlyfeProto,{
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
+}
+
+#brancointeractive{
+	display: block;
+	margin: 0 auto;
 }
 
 /*.imageSyllabi{
