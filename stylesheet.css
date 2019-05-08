@@ -197,7 +197,7 @@ html{
 	padding-left: 20%;
 } */
 
-#allergeatproto, #uqlyfeProto{
+#allergeatproto, #uqlyfeProto, #roseArtVid{
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
@@ -235,7 +235,7 @@ html{
 
 /*resume*/
 
-#resumeDiv{
+#pdfDiv{
 	text-align: center;
 }
 
