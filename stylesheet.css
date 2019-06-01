@@ -51,6 +51,7 @@
 
 #logo{
 	width: 60px;
+	float: left;
 }
 
 #indexlogo{
@@ -140,12 +141,13 @@ h2{
   padding: 16px 32px;
 }
 
+
 #backtoTop{
 	width: 100px;
-	display: block;
+	/*  display: block;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-top: 50px; */
 }
 
 html{
@@ -153,6 +155,12 @@ html{
 }
 
 /* About Page */
+
+.aboutContainer{ 
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 #mepic{
 	float: left;
 	padding-right: 50px;
@@ -173,19 +181,67 @@ html{
 
 
 /* Project Pages */
-.projectContainer{
-	margin-right: 10%;
-	margin-left: 10%;
+
+.header{
+	width: 100%;
 }
 
+.sidenavContainer{
+	width: 12%;
+	height: 80%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding-left: 3%;
+	padding-top: 10px;
+	position: fixed;
+	font-size: 20px;
+	/* background-color: #f2f2f2; */
+}
+
+.sidebarlink:link{
+	color: #808080;
+	text-decoration: none;
+}
+
+.sidebarlink:visited{
+	color: #808080;
+	text-decoration: none;
+}
+
+.sidebarlink:hover{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.everythingelseContainer{
+	width: 65%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.projectContainer{
+	margin: auto;
+	float:left;
+}
+
+.backtotop{
+	bottom: 0;
+	position: fixed;
+	padding-bottom: 10px;
+} 
+
+
 #back{
-	width: 120px;
+	width: 100px;
 }
 
 .projectTitle{
 	text-align: center;
 	font-size: 40px;
-	margin-top: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -235,6 +291,10 @@ html{
 
 /*resume*/
 
+#resumecontainer{
+	margin-top: 5%;
+}
+
 #pdfDiv{
 	text-align: center;
 }
@@ -243,6 +303,7 @@ html{
 	max-height: 100%;
 
 }
+
 
 /*footer*/
 .footer{
